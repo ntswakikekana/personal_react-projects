@@ -1,0 +1,31 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-container li {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.trash-icon {
+  color: #e63946;
+  cursor: pointer;
+}
+
+.trash-icon:hover {
+  color: #c82333;
+}
